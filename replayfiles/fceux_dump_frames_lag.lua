@@ -5,7 +5,6 @@ local movie_filename = "";      -- Will hold the movie file name (.fm2)
 local output_filename = "";     -- Will hold the output file name (.r08)
 local fhnd;                     -- For ouputing to the file
 
-local lagged = false;
 local prev_input = {};
 
 local skip_lag = true;
